@@ -14,7 +14,7 @@ This solution addresses the above by :
   - when item is marked "complete"
 - when a new due date is set after due date had expires or when item state is changed after notification, the item will be eligible for notification again
 
-#### Endpoints
+## Endpoints
 
 ### /itemUpdate
 
@@ -34,7 +34,7 @@ This deletes the webhook in Trello by a board
 
 The endpoint documentation is available at https://5o5jrk.deta.dev/redoc
 
-### Pre-requisites
+## Pre-requisites
 
 The pre-requisites includes :
 - the admin Trello API Key and Token in the .env file
