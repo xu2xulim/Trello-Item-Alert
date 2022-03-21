@@ -8,7 +8,7 @@ This solution addresses the above by :
 
 - create a alert record when there is a due date on an item
 - a cron job will process all items with an "incomplete" state and due date matching a pre-determined criterion
-- notify the user if a member is assigned to the card using **"@username <some meaning text>" or "@card <some meaning text>"** if no member is assigned to the item
+- notify the user if a member is assigned to the card using **"@username some meaningful text" or "@card some meaningful text"** if no member is assigned to the item
 - set a expiry on the alert record delete the record
   - when notification has sent
   - when item is marked "complete"
