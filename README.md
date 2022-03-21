@@ -48,3 +48,4 @@ The solution components include :
   - a cron to process and create the alerts.
 - A Deta Base for the alert records.
 - Trello webhook using the board id as the idModel.
+- There is 10s timeout for all micro and cron for a Deta deployment. Request can be made to increase this.
