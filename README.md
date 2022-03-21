@@ -39,3 +39,12 @@ The endpoint documentation is available at https://5o5jrk.deta.dev/redoc
 The pre-requisites includes :
 - the admin Trello API Key and Token in the .env file
 - defined criterion to be used for the cron job
+
+## Technical Notes
+
+The solution components include :
+
+- A Deta Micro using FastAPI deployed on deta.dev or other platform like Wayscript X
+  - a cron to process and create the alerts
+- A Deta Base for the alert records
+- Trello webhook using the board id as the idModel
