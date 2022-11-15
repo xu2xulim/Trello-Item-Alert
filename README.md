@@ -18,11 +18,7 @@ This solution addresses the above by :
 
 ### /itemUpdate
 
-This serves as the webhook endpoint. The idModel is the board_id.
-
-### /create
-
-This is creates the alert record.
+This serves as the webhook endpoint. The idModel is the board_id. It creates and maintain the alert records on a NOSQL database.
 
 ### /setup
 
@@ -38,14 +34,16 @@ The endpoint documentation is available at https://5o5jrk.deta.dev/redoc .
 
 The pre-requisites includes :
 - the admin Trello API Key and Token in the .env file.
-- defined criterion to be used for the cron job.
+- the criteria are defined at both the board level and the card level
 
 ## Technical Notes
 
 The solution components include :
 
+- A node.js deployed on deta.dev or other platform like Wayscript X to provide the custom Power Up handlers 
 - A Deta Micro using FastAPI deployed on deta.dev or other platform like Wayscript X.
-  - a cron to process and create the alerts.
+  - a cron to process and create the alerts, send the notification as comments to the card.
 - A Deta Base for the alert records.
-- Trello webhook using the board id as the idModel.
+- Trello webhook using the board id as the idModel
+  - this is created from within the customer Power Up. It can be removed using a board button created by the custom Power Up
 - There is 10s timeout for all micro and cron for a Deta deployment. Request can be made to increase this.
