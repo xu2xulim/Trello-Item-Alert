@@ -1,1 +1,5 @@
 ![ItemAlert](https://user-images.githubusercontent.com/396180/201894086-2e8f45e0-63ec-4fb6-b004-ae33f74e8ccc.jpg)
+![Board Settings](https://user-images.githubusercontent.com/396180/201894995-a7db9508-d594-4a50-bcf2-64100ebf35de.jpg)
+![Card Detail Badge](https://user-images.githubusercontent.com/396180/201895234-8ce197ce-7059-4695-88d5-da05a8754c1d.jpg)
+![Card Setting](https://user-images.githubusercontent.com/396180/201895851-32d13884-0902-4b0b-96b5-dc3674f315c2.jpg)
+![Alerts](https://user-images.githubusercontent.com/396180/201896040-6ce892cf-d267-4ebe-83a7-fb5d5a03ea4b.jpg)
