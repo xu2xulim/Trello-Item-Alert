@@ -28,7 +28,7 @@ This creates a webhook in Trello based on the idModel. This this case, it will b
 
 This deletes the webhook in Trello by a board.
 
-The endpoint documentation is available at https://5o5jrk.deta.dev/redoc .
+The endpoint documentation is available at https://ppvxuq.deta.dev/redoc .
 
 ## Pre-requisites
 
