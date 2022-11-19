@@ -3,6 +3,7 @@
 Trello offers a notification system based on card due date and notification system documented at https://help.trello.com/article/793-receiving-trello-notifications .
 
 The advanced checklist allows for item due date and assigning of card member on the item. However, there is no notification when the item is due or a reminder based on the due date.
+**Update** Trello has since added reminders for Checklist Item due dates. However, the notification is via email and not on the card which does not allow any further Trello automation to be attached to the reminder. This implementation, however, allows for you to use the comments added to the card to enable your own custom automation.
 
 This solution addresses the above by :
 
@@ -47,3 +48,9 @@ The solution components include :
 - Trello webhook using the board id as the idModel
   - this is created from within the customer Power Up. It can be removed using a board button created by the custom Power Up
 - There is 10s timeout for all micro and cron for a Deta deployment. Request can be made to increase this.
+
+# Date Alert
+**UPDATE**
+By attaching a different microservice, a notification system around Start Date and any Custom Field days is also possible.
+![Date Alert](https://user-images.githubusercontent.com/396180/202846385-2726d777-400b-4e39-b8c7-e20be2751518.jpg)
+
